@@ -15,8 +15,8 @@ class UserTest {
         }
         @Test
         void  failCreateUserTest(){
-            User user = null;
-            Assertions.assertNull(user);
+            User user1 = null;
+            Assertions.assertNull(user1);//
         }
         @Test
         void  checkCorrectMailTest(){
